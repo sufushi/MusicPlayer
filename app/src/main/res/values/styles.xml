@@ -1,0 +1,50 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="BaseAppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlNormal">@color/whitesmoke</item>
+        <item name="android:windowBackground">@color/white</item>
+        <item name="android:textColor">@color/lightgray</item>
+        <item name="android:textSize">@dimen/dimen_text_size_middle</item>
+    </style>
+
+    <!--在Android 4.4之前的版本上运行，直接跟随系统主题-->
+    <style name="AppTheme" parent="BaseAppTheme">
+    </style>
+
+    <!--ToolBar theme-->
+    <style name="ToolbarStyle" parent="@style/ThemeOverlay.AppCompat.ActionBar">
+        <item name="android:textColorPrimary">@color/white</item>
+        <item name="android:actionBarSize">46dp</item>
+    </style>
+
+    <!--TabIndicator theme-->
+    <style name="TabIndicator" parent="Widget.Design.TabLayout">
+        <item name="tabIndicatorColor">@color/colorPrimary</item>
+        <item name="tabIndicatorHeight">2dp</item>
+    </style>
+
+    <!--EditText theme-->
+    <style name="EditTextStyle" parent="Base.Widget.AppCompat.EditText">
+        <item name="android:textCursorDrawable">@drawable/bg_et_cursor</item>
+        <item name="android:textColorHint">@color/colorAccent</item>
+    </style>
+
+    <!--启动界面-->
+    <style name="SplashTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/bg_splash</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="BaseAppTheme.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar"/>
+
+    <style name="BaseAppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light"/>
+
+</resources>

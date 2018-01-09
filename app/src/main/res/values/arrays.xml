@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="local_music_array">
+        <item>@string/string_song</item>
+        <item>@string/string_artist</item>
+    </string-array>
+
+    <string-array name="music_category">
+        <item>欧美</item>
+        <item>内地</item>
+        <item>港台</item>
+        <item>韩国</item>
+        <item>日本</item>
+        <item>民谣</item>
+        <item>摇滚</item>
+        <item>销量</item>
+        <item>热门</item>
+    </string-array>
+
+</resources>

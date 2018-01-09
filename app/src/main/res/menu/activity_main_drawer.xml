@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_local_music"
+            android:icon="@drawable/ic_local_music"
+            android:title="@string/string_local_music"/>
+        <item
+            android:id="@+id/nav_category"
+            android:icon="@drawable/ic_category"
+            android:title="@string/string_category"/>
+        <item
+            android:id="@+id/nav_recent_play"
+            android:icon="@drawable/ic_recent_play"
+            android:title="@string/string_recent_play"/>
+        <item
+            android:id="@+id/nav_collection"
+            android:icon="@drawable/ic_collection"
+            android:title="@string/string_collection"/>
+        <!--<item-->
+            <!--android:id="@+id/nav_share"-->
+            <!--android:icon="@drawable/ic_share"-->
+            <!--android:title="@string/string_share"/>-->
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_setting"
+            android:title="@string/string_setting"/>
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_about"
+            android:title="@string/string_about"/>
+    </group>
+
+
+</menu>

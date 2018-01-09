@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:app="http://schemas.android.com/apk/res-auto"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:background="?attr/selectableItemBackground"
+              android:clickable="true"
+              android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:layout_marginStart="10dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/tv_song_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.5"
+            android:clickable="false"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="@string/string_song_name"
+            android:textColor="@color/lightblack"
+            android:textSize="@dimen/dimen_text_size_middle"/>
+
+        <TextView
+            android:id="@+id/tv_singer_name"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:layout_marginTop="6dp"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="@string/string_singer_name"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/dimen_text_size_small"/>
+
+        <TextView
+            android:id="@+id/tv_song_duration"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:clickable="false"
+            android:layout_marginTop="4dp"
+            android:gravity="center_vertical"
+            android:maxLines="1"
+            android:text="@string/string_song_duration"
+            android:textColor="@color/gray"
+            android:textSize="@dimen/dimen_text_size_small"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="0.1dp"
+        android:layout_marginEnd="2dp"
+        android:layout_marginStart="2dp"
+        android:background="@color/lightgray"/>
+
+</LinearLayout>
